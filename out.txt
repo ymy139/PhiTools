@@ -1,0 +1,274 @@
+D:\铺面\Phigros\Unzip\Bad Apple
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['98535268.json', '98535268.mp3', '98535268.jpg', '1.777778', '8.00E+03', '0.6', 'Bad Apple!!', 'AT Lv.15', '东方幻想乡', 'そらね']
+
+写入：
+#
+Name: Bad Apple!!
+Level: AT Lv.15
+Composer: 东方幻想乡
+Charter: そらね
+
+
+D:\铺面\Phigros\Unzip\INTERNET OVERDOSE
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['IO.json', 'IO.mp3', 'IO.ipg', '1.333333', '6e3', '0.6', 'INTERNET OVERDOSE', 'IN  Lv.14', 'kokamumo & ccnaov', '✝Sc Ar✝']
+
+写入：
+#
+Name: INTERNET OVERDOSE
+Level: IN  Lv.14
+Composer: kokamumo & ccnaov
+Charter: ✝Sc Ar✝
+
+
+D:\铺面\Phigros\Unzip\You are the Miserable
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['You are the Miserable.json', 'You are the Miserable.mp3', 'You are the Miserable.png.', '1.777778', '8.00E+03', '0.6', 'You are the Miserable', 'SP Lv.?', 'Lanota Â© Noxy Games Inc.', 'RnJlTW8=']
+
+写入：
+#
+Name: You are the Miserable
+Level: SP Lv.?
+Composer: Lanota Â© Noxy Games Inc.
+Charter: RnJlTW8=
+
+
+D:\铺面\Phigros\Unzip\[Arc精选集] Ether Strike[Offest=175]
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['Ether Strike.pec', 'Ether Strike.mp3', 'Ether Strike.png', '', '', '', 'Ether Strike', 'IN Lv.15', 'Akira Complex', 'Foehn_Uragan & ColourpOINT']
+
+写入：
+#
+Name: Ether Strike
+Level: IN Lv.15
+Composer: Akira Complex
+Charter: Foehn_Uragan & ColourpOINT
+
+
+D:\铺面\Phigros\Unzip\[Arc精选集] Grievous Lady
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['22403977.json', '22403977.mp3', '22403977.jpg', '1.777778', '8.00E+03', '0.6', 'Grievous Lady', 'AT Lv.16', 'Grievous Lady', 'Grievous Peach']
+
+写入：
+#
+Name: Grievous Lady
+Level: AT Lv.16
+Composer: Grievous Lady
+Charter: Grievous Peach
+
+
+D:\铺面\Phigros\Unzip\[Arc精选集] Pentiment(理论双指)
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['Pentiment.pec', 'Pentiment.mp3', 'Pentiment.jpg', '1.333333', '6e3', '15', 'Pentiment', 'AT  Lv.16', '村カルキ', 'Nothing but with Encly & CatFish']
+
+写入：
+#
+Name: Pentiment
+Level: AT  Lv.16
+Composer: 村カルキ
+Charter: Nothing but with Encly & CatFish
+
+
+D:\铺面\Phigros\Unzip\[Arc精选集] Tempestissimo
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['Tempestissimo.pec', 'temp.mp3', 'temp.jpg', '1.4615384', '8.00E+03', '0.6', 'Tempestissimo', 'AT Lv.16', 'Cierra', 'tyj616sb vs kio876']
+
+写入：
+#
+Name: Tempestissimo
+Level: AT Lv.16
+Composer: Cierra
+Charter: tyj616sb vs kio876
+
+
+D:\铺面\Phigros\Unzip\[Arc精选集] Testify
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['65153159.json', '65153159.mp3', '65153159.png', '1.777778', '8.00E+03', '0.6', 'Testify', 'AT Lv.16+', '¥·¥¨¥é', 'End Of FreMo vs.Bigoted Unhuman LanieR']
+
+写入：
+#
+Name: Testify
+Level: AT Lv.16+
+Composer: ¥·¥¨¥é
+Charter: End Of FreMo vs.Bigoted Unhuman LanieR
+
+
+D:\铺面\Phigros\Unzip\[Lime精选集] Aurora
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['67854096.json', '67854096.mp3', '67854096.jpg', '1.333333', '3.00E+03', '0.5', 'Aurora', 'AT Lv.16', 'inukoro', 'FreMo“flush of dawn”']
+
+写入：
+#
+Name: Aurora
+Level: AT Lv.16
+Composer: inukoro
+Charter: FreMo“flush of dawn”
+
+
+D:\铺面\Phigros\Unzip\[Little End精选集] Sky
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['Sky.json', 'Sky.mp3', 'Sky.JPG', '1.777778', '8.00E+03', '0.6', 'Sky', 'IN Lv.13', 'Little End', 'MujiSama']
+
+写入：
+#
+Name: Sky
+Level: IN Lv.13
+Composer: Little End
+Charter: MujiSama
+
+
+D:\铺面\Phigros\Unzip\[Orz精选集] 核心共振
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['tmp.json', '91197345.mp3', '91197345.png', '1.333333', '3.00E+03', '0.5', '核心共振', 'IN Lv.16', 'Niba', '超越一切！震慑凡人！']
+
+写入：
+#
+Name: 核心共振
+Level: IN Lv.16
+Composer: Niba
+Charter: 超越一切！震慑凡人！
+
+
+D:\铺面\Phigros\Unzip\[原神精选集] 如果突然想起我
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['47505071.json', '47505071.mp3', '47505071.jpg', '1.777778', '8.00E+03', '0.6', '如果突然想起我', 'IN Lv.13+', 'KKOMDA', '洛家の雨洛吖']
+
+写入：
+#
+Name: 如果突然想起我
+Level: IN Lv.13+
+Composer: KKOMDA
+Charter: 洛家の雨洛吖
+
+
+D:\铺面\Phigros\Unzip\[原神精选集] 让风告诉你
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['67533713.json', '67533713.mp3', '67533713.jpg', '1.777778', '8.00E+03', '0.6', '让风告诉你', 'YS Lv.14', 'Kurattes & -黑鹿原-', 'Xiao_YL']
+
+写入：
+#
+Name: 让风告诉你
+Level: YS Lv.14
+Composer: Kurattes & -黑鹿原-
+Charter: Xiao_YL
+
+
+D:\铺面\Phigros\Unzip\[崩坏三精选集] TruE
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['68586550.json', '68586550.mp3', '68586550.jpg', '1.333333', '8.00E+03', '0.6', 'TruE', 'Elysia Lv.Story', 'miHoYo', '明雨的故事']
+
+写入：
+#
+Name: TruE
+Level: Elysia Lv.Story
+Composer: miHoYo
+Charter: 明雨的故事
+
+
+D:\铺面\Phigros\Unzip\[愚人节铺面大赏] Burn(Haocore Mix)
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['Chart_SP.json', 'Burn(Haocore Mix).wav', 'Burn #12762.png', '1.333333', '8.00E+03', '0.8', 'Burn(Haocore Mix)', 'SP Lv.?', 'knife美工刀', 'Catcats']
+
+写入：
+#
+Name: Burn(Haocore Mix)
+Level: SP Lv.?
+Composer: knife美工刀
+Charter: Catcats
+
+
+D:\铺面\Phigros\Unzip\[愚人节铺面大赏但是自制] Aleph-0
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['a0.pec', 'a0.mp3', 'a0.jpg', '1.333333', '6e3', '0.6', 'Aleph-0', 'SP  Lv.?', 'Optie', 'S2V5aQ==']
+
+写入：
+#
+Name: Aleph-0
+Level: SP  Lv.?
+Composer: Optie
+Charter: S2V5aQ==
+
+
+D:\铺面\Phigros\Unzip\[死去的老梗突然开始攻击我] 浙江温州江南皮革厂倒闭了
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', ' 音乐', ' 图片', ' 宽高比', ' 按键缩放', ' 背景变暗', ' 名称', ' 等级', ' 曲绘', ' 谱师']
+['98486794.json', ' 98486794.mp3', ' 98486794.png', ' 1.777778', ' 8.00E+03', ' 0.6', ' 浙江温州江南皮革厂倒闭了', ' SP Lv.?', ' 女孩为何穿短裙', ' 月轩痕']
+
+写入：
+#
+Name:  浙江温州江南皮革厂倒闭了
+Level:  SP Lv.?
+Composer:  女孩为何穿短裙
+Charter:  月轩痕
+
+
+D:\铺面\Phigros\Unzip\冉冉升起，直播新星[Offest=175ms]
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['Eureka.pec', 'Eureka.mp3', 'Eureka.jpg', '', '', '', '冉冉升起，直播新星', 'U Lv.14', '塞壬唱片-MSR/VESK GREEN 青菜', 'Foehn_Uragan']
+
+写入：
+#
+Name: 冉冉升起，直播新星
+Level: U Lv.14
+Composer: 塞壬唱片-MSR/VESK GREEN 青菜
+Charter: Foehn_Uragan
+
+
+D:\铺面\Phigros\Unzip\大课间
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['44609921.pec', '44609921.mp3', '44609921.png', '1.333333', '6e3', '15', 'Class Over', 'IN Lv.13', '群星', 'CatFish']
+
+写入：
+#
+Name: Class Over
+Level: IN Lv.13
+Composer: 群星
+Charter: CatFish
+
+
+D:\铺面\Phigros\Unzip\群青
+
+['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+['缇ら潚.pec', '群青.mp3', '群青.jpg', '1.333333', '8.00E+03', '0.6', '群青', 'Air Lv.A', 'YOASOBI', 'Air']
+
+写入：
+#
+Name: 群青
+Level: Air Lv.A
+Composer: YOASOBI
+Charter: Air
+
+
