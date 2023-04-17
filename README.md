@@ -1,7 +1,8 @@
 # REPG小工具
-将phi自制铺的 info.csv 转为 info.txt 以让 RE:Phigros 正常显示信息  
-悲报：在本脚本完成制作后30分钟左右后REP表示将在下个版本添加对info.csv的支持  
-*<del>哼哼，啊啊啊啊啊啊啊（114514）</del>*
+功能：
+1. 将phi自制铺的 info.csv 转为 info.txt 以让 RE:Phigros 正常显示信息  
+    > 悲报：在该功能完成制作后30分钟左右后REP表示将在下个版本添加对info.csv的支持  
+    *<del>哼哼，啊啊啊啊啊啊啊（114514）</del>*
 
 ## 使用方法
 1. 安装`chardet`库
