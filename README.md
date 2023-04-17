@@ -14,8 +14,7 @@
     1. 安装`chardet`库
         > 使用`pip install chardet`命令安装`chardet`库
     2. 在本仓库/Releases中下载`main.py`或clone本仓库
-    3. 修改`main.py`中第1行的常量为你存放铺面文件夹的位置
-    4. 运行！
+    3. 运行！
 + 直接运行通过pyinstaller打包好的exe可执行文件
     > *comeing soon*
 
