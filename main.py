@@ -3,6 +3,7 @@ import csv
 import os
 import chardet
 import sys
+import time
 # 打开输出记录文件
 OutFile = open("out.txt", "w", encoding="utf-8")
 # info.csv 转 info.txt 功能函数
@@ -76,20 +77,56 @@ def exit_program(exitcode: int = 0):
     OutFile.close()
     # 退出
     sys.exit(exitcode)
+# log输出函数
+def print_log(text: str, loglevel: str):
+    print("["+time.strftime("%H:%M:%S")+"] ["+loglevel+"] "+text)
 # 主交互逻辑
 def main():
+    # 清屏
     os.system("cls")
+    # 输出信息
     print("REPGTools v0.1.0  by:ymy139  github:https://github.com/ymy139/REPGTools")
     print("欢迎使用REPGTools, 请输入您要进行的操作：")
     print("    1. info.csv 转 info.txt")
-    print("    2. 退出")
+    print("    0. 退出")
     print(" ")
-    user_input = input("输入功能编号:")
+    while True:
+        # 获取用户输入--功能编号
+        user_input = input("输入功能编号:")
+        # 尝试将用户输入转换为int类型
+        try:
+            user_input = int(user_input)
+            # 成功转换则跳出循环
+            break
+        except:
+            # 否则提示
+            print_log("虽然不知道你输入的是啥,但肯定不是阿拉伯数字,对吧?", "WRAN")
+    while True:
+        # 获取用户输入--日志等级
+        loglevel = input("输入日志等级(1.详细,2.一般,3.仅输出警告):")
+        # 尝试将用户输入转换为int类型
+        try:
+            loglevel = int(loglevel)
+            # 成功转换则跳出循环
+            break
+        except:
+            # 否则提示
+            print_log("虽然不知道你输入的是啥,但肯定不是阿拉伯数字,对吧?", "WRAN")
     if user_input == 1:
-        chartpath = input("输入存放铺面文件夹目录的绝对路径：")
-        loglevel = input("输入日志等级(1.详细,2.较详细,3.仅输出警告):")
+        while True:
+            # 获取用户输入--铺面路径
+            chartpath = input("输入存放铺面文件夹目录的绝对路径：")
+            # 检查目录是否存在
+            if os.path.exists(chartpath) == True:
+                # 存在则跳出循环
+                break
+            else:
+                # 否则提示
+                print_log("皇帝的新目录? (请检查输入的路径或检查路径是否损坏)", "WRAN")
+        # 执行csv_to_txt函数
         csv_to_txt(chartpath, loglevel)
-    if user_input == 2:
+    if user_input == 0:
+        # 执行退出函数
         exit_program()
-        
+# 执行主函数
 main()
