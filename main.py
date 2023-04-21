@@ -5,9 +5,10 @@ import chardet
 import sys
 import time
 # 打开输出记录文件
-OutFile = open("out.txt", "w", encoding="utf-8")
+OutFile = open("ChangeLog.txt", "w", encoding="utf-8")
 # info.csv 转 info.txt 功能函数
 def csv_to_txt(chartpath: str, loglevel: int):
+    OutFile.write("转换日志\n功能: info.csv 转 info.txt\n\n")
     # 切换目录
     os.chdir(chartpath)
     # 获取文件夹列表
@@ -16,8 +17,22 @@ def csv_to_txt(chartpath: str, loglevel: int):
     DirCount = len(DirList)
     # 主循环,循环 文件夹数 次,并将循环次数保存至变量 i
     for i in range(DirCount):
-        # 切换到铺面目录
-        os.chdir(DirList[i])
+        try:
+            # 切换到铺面目录
+            os.chdir(DirList[i])
+        # 如果不是一个目录...
+        except NotADirectoryError:
+            # 输出错误
+            print_log(DirList[i]+" 不是一个目录, 进行下一次循环", "ERROR")
+            # 记录错误
+            OutFile.write(DirList[i]+" 不是一个目录, 进行下一次循环\n")
+            # 进入下一次循环
+            continue
+        if loglevel < 3:
+            # 输出工作路径
+            print_log("开始转换铺面info: 在: "+os.getcwd()+" 的铺面info", "INFO")
+            # 记录工作路径
+            OutFile.write("开始转换铺面info: 在: "+os.getcwd()+" 的铺面info\n")
         # 尝试...
         try:
             # 以二进制打开csv
@@ -34,41 +49,38 @@ def csv_to_txt(chartpath: str, loglevel: int):
         except:
             # 如果没有csv文件,则将HaveCSV设为False
             HaveCSV = False
+            print_log("铺面路径 "+os.getcwd()+" 没有info.csv文件,开始下一个目录的转换", "WRAN")
+            OutFile.write("铺面路径 "+os.getcwd()+" 没有info.csv文件,开始下一个目录的转换\n")
         # 如果有csv文件...
         if HaveCSV == True:
-            # 输出工作路径
-            print(os.getcwd()+"\n")
-            # 记录工作路径
-            OutFile.write(os.getcwd()+"\n")
             # 建立/重置二维列表用于存放csv读取出来的数据
-            CSVInfo = []
+            CSVData = []
             # 读取csv
             Reader = csv.reader(CSVFile)
             # 输出内容
             for row in Reader:
-                # 输出数据
-                print(row)
-                # 记录数据
-                OutFile.write(str(row)+"\n")
+                if loglevel < 2:
+                    # 输出数据
+                    print_log("获取到csv数据: "+str(row), "DEBUG")
+                    # 记录数据
+                    OutFile.write("获取到csv数据: "+str(row)+"\n")
                 # 存放数据
-                CSVInfo.append(row)
+                CSVData.append(row)
             # 关闭csv
             CSVFile.close()
-            # 换行
-            print("\n")
-            OutFile.write("\n")
             # 建立/打开info.txt
             TXTFile = open("info.txt", "w", encoding="utf-8")
             # 读取基本信息
-            LevelDesigner = CSVInfo[-1][-1]
-            Composer = CSVInfo[-1][-2]
-            Level = CSVInfo[-1][-3]
-            Name = CSVInfo[-1][-4]
+            LevelDesigner = CSVData[-1][-1]
+            Composer = CSVData[-1][-2]
+            Level = CSVData[-1][-3]
+            Name = CSVData[-1][-4]
             # 写入
             TXTFile.write("#\nName: "+Name+"\nLevel: "+Level+"\nComposer: "+Composer+"\nCharter: "+LevelDesigner+"\n")
             # 记录
-            OutFile.write("写入：\n#\nName: "+Name+"\nLevel: "+Level+"\nComposer: "+Composer+"\nCharter: "+LevelDesigner+"\n\n\n")
-            print("写入：\n#\nName: "+Name+"\nLevel: "+Level+"\nComposer: "+Composer+"\nCharter: "+LevelDesigner+"\n\n\n")
+            if loglevel < 2:
+                OutFile.write("写入数据: \n#\nName: "+Name+"\nLevel: "+Level+"\nComposer: "+Composer+"\nCharter: "+LevelDesigner+"\n")
+                print_log("写入：\n#\nName: "+Name+"\nLevel: "+Level+"\nComposer: "+Composer+"\nCharter: "+LevelDesigner, "DEBUG")
         # 回到存放铺面的总文件夹
         os.chdir("..")
 # 退出函数
@@ -85,7 +97,7 @@ def main():
     # 清屏
     os.system("cls")
     # 输出信息
-    print("REPGTools v0.1.0  by:ymy139  github:https://github.com/ymy139/REPGTools")
+    print("REPGTools v0.1.0   by: ymy139   github: https://github.com/ymy139/REPGTools")
     print("欢迎使用REPGTools, 请输入您要进行的操作：")
     print("    1. info.csv 转 info.txt")
     print("    0. 退出")
@@ -100,10 +112,10 @@ def main():
             break
         except:
             # 否则提示
-            print_log("虽然不知道你输入的是啥,但肯定不是阿拉伯数字,对吧?", "WRAN")
+            print_log("虽然不知道你输入的是啥, 但肯定不是阿拉伯数字, 对吧?", "WRAN")
     while True:
         # 获取用户输入--日志等级
-        loglevel = input("输入日志等级(1.详细,2.一般,3.仅输出警告):")
+        loglevel = input("输入日志等级(1. 详细, 2.一般,3. 仅输出警告):")
         # 尝试将用户输入转换为int类型
         try:
             loglevel = int(loglevel)
@@ -111,7 +123,7 @@ def main():
             break
         except:
             # 否则提示
-            print_log("虽然不知道你输入的是啥,但肯定不是阿拉伯数字,对吧?", "WRAN")
+            print_log("虽然不知道你输入的是啥, 但肯定不是阿拉伯数字, 对吧?", "WRAN")
     if user_input == 1:
         while True:
             # 获取用户输入--铺面路径

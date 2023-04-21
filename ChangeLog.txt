@@ -1,0 +1,25 @@
+转换日志
+功能: info.csv 转 info.txt
+
+AFile 不是一个目录, 进行下一次循环
+开始转换铺面info: 在: F:\Programs\REPGTools\test\charts\chart1 的铺面info
+开始转换铺面info: 在: F:\Programs\REPGTools\test\charts\chart2 的铺面info
+获取到csv数据: ['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+获取到csv数据: ['22403977.json', '22403977.mp3', '22403977.jpg', '1.777778', '8.00E+03', '0.6', 'Name', 'Level', 'Illustrator', 'Designer']
+写入数据: 
+#
+Name: Name
+Level: Level
+Composer: Illustrator
+Charter: Designer
+开始转换铺面info: 在: F:\Programs\REPGTools\test\charts\chart3 的铺面info
+开始转换铺面info: 在: F:\Programs\REPGTools\test\charts\chart4 的铺面info
+获取到csv数据: ['Chart', 'Music', 'Image', 'AspectRatio', 'ScaleRatio', 'GlobalAlpha', 'Name', 'Level', 'Illustrator', 'Designer']
+获取到csv数据: ['谱面', '音乐', '图片', '宽高比', '按键缩放', '背景变暗', '名称', '等级', '曲绘', '谱师']
+获取到csv数据: ['22403977.json', '22403977.mp3', '22403977.jpg', '1.777778', '8.00E+03', '0.6', 'Name', 'Level', 'Illustrator', 'Designer']
+写入数据: 
+#
+Name: Name
+Level: Level
+Composer: Illustrator
+Charter: Designer
