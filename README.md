@@ -13,7 +13,7 @@
 + 使用python直接运行脚本
     1. 安装`chardet`库
         > 使用`pip install chardet`命令安装`chardet`库
-    2. 在本仓库/Releases中下载`main.py`或clone本仓库
+    2. 在本仓库/Releases中下载`main.py`或clone本仓库(建议在Releases中下载`main.py`)
     3. 运行！
 + 直接运行通过pyinstaller打包好的exe可执行文件
     > *comeing soon*
