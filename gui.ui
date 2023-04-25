@@ -183,6 +183,12 @@ QComboBox::drop-down {
     border-radius: 5px;
     background-color: rgb(254, 254, 254);
 }
+
+QComboBox::down-arrow {
+    border-image-source: url(kMoT0EcmVt.jpg);
+    border-image-repeat: rounded;
+}
+
 /* 下拉按钮位移 */
 QComboBox::down-arrow:on {
     top: 1px;

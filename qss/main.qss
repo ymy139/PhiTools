@@ -63,6 +63,11 @@ QComboBox::drop-down {
     border-bottom-right-radius: 3px;
 } */
 
+/* 下拉按钮图片 */
+QComboBox::down-arrow {
+    border-image: ;
+}
+
 QComboBox::drop-down {
     border: 1px solid rgb(238, 239, 238);
     border-radius: 5px;
