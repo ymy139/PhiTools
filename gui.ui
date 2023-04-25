@@ -81,10 +81,10 @@
   <widget class="QPushButton" name="pushButton">
    <property name="geometry">
     <rect>
-     <x>505</x>
-     <y>255</y>
-     <width>90</width>
-     <height>40</height>
+     <x>464</x>
+     <y>244</y>
+     <width>131</width>
+     <height>51</height>
     </rect>
    </property>
    <property name="styleSheet">
@@ -101,6 +101,119 @@
    </property>
    <property name="text">
     <string>下一步</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_4">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>270</y>
+     <width>100</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>Microsoft YaHei UI Light</family>
+     <pointsize>11</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>要使用的功能：</string>
+   </property>
+  </widget>
+  <widget class="QComboBox" name="comboBox">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>271</y>
+     <width>127</width>
+     <height>22</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">QComboBox {
+    border: 1px solid rgb(238, 239, 238);
+    border-radius: 5px;
+    border-bottom: 1px solid rgb(212, 213, 212);
+    font: 14px 'Segoe UI', 'Microsoft YaHei';
+	padding: 0px 0px 1px 0px;
+    color: black;
+    background-color: rgb(254, 254, 254);
+    text-align: left;
+}
+
+QComboBox:editable {
+    background: green;
+}
+
+QComboBox:!editable,QComboBox::drop-down:editable {
+    background: white;
+}
+
+/* 当下拉框打开时,背景颜色渐变 */
+QComboBox:!editable:on, QComboBox::drop-down:editable:on {
+    background: white;
+}
+
+/* 当下拉框打开时, 移动显示框文本位置*/
+QComboBox:on {
+    padding-top: 3px;
+    padding-left: 4px;
+}
+
+/* 下拉按钮
+QComboBox::drop-down {
+    subcontrol-origin: padding;
+
+    subcontrol-position: top right;
+
+    width: 25px;
+
+    border-left-width: 3px;
+    border-left-color: red;
+    border-left-style: solid;
+
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
+} */
+
+QComboBox::drop-down {
+    border: 1px solid rgb(238, 239, 238);
+    border-radius: 5px;
+    background-color: rgb(254, 254, 254);
+}
+/* 下拉按钮位移 */
+QComboBox::down-arrow:on {
+    top: 1px;
+    left: 1px;
+}
+
+/* 下拉列表里的颜色 */
+QComboBox QAbstractItemView {
+    border: 2px solid darkgray;
+    selection-background-color: green;
+}</string>
+   </property>
+   <item>
+    <property name="text">
+     <string>新建项目</string>
+    </property>
+   </item>
+   <item>
+    <property name="text">
+     <string>新建项目</string>
+    </property>
+   </item>
+  </widget>
+  <widget class="QComboBox" name="comboBox_2">
+   <property name="geometry">
+    <rect>
+     <x>120</x>
+     <y>160</y>
+     <width>69</width>
+     <height>22</height>
+    </rect>
    </property>
   </widget>
  </widget>

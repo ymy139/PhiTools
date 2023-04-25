@@ -1,5 +1,5 @@
 # REPG小工具
-[更新日志](./updatalog.md)
+[更新日志](./updatalog.md)   [开发者日报](./magazine.md)
 
 ### 功能：
 1. 将phi自制铺的 info.csv 转为 info.txt 以让 RE:Phigros 正常显示信息  
