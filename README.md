@@ -1,4 +1,4 @@
-# REPG小工具
+# Phigros自制谱小工具
 [更新日志](./updatalog.md)   [开发者日报](./magazine.md)
 
 ### 功能：
